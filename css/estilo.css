@@ -6,3 +6,54 @@
     text-decoration: none;
     list-style: none;
 }
+
+body {
+    margin: 1rem;
+}
+
+.cabecalho {
+    align-items: center;
+    background: url('../img/plano-de-fundo.jpg') bottom / cover no-repeat;
+    border-radius: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.cabecalho__logo {
+    width: 10rem;
+    color: #008080;
+}
+
+.cabecalho__navegacao {
+    width: 50%;
+}
+
+.cabecalho__navegacao__menu {
+    display: flex;
+    margin: 1.3rem 0;
+}
+
+.cabecalho__link {
+    flex-grow: 1;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cabecalho__link>a {
+    color: #040a1a;
+    font-size: 24px;
+}
+
+.cabecalho__link:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.chamada {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
