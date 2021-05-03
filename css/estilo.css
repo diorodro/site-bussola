@@ -25,24 +25,19 @@ body {
     color: #008080;
 }
 
-.cabecalho__navegacao {
-    width: 50%;
-}
-
 .cabecalho__navegacao__menu {
     display: flex;
-    margin: 1.3rem 0;
+    margin: 1rem 0;
 }
 
 .cabecalho__link {
-    flex-grow: 1;
     justify-content: space-around;
-    text-align: center;
 }
 
 .cabecalho__link>a {
     color: #040a1a;
-    font-size: 24px;
+    font-size: 1.1rem;
+    margin: 0 1rem;
 }
 
 .cabecalho__link:hover {
