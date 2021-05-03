@@ -17,7 +17,7 @@ body {
     border-radius: 20px 10px;
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 6rem 0;
 }
 
 .cabecalho__logo {
@@ -27,6 +27,8 @@ body {
 
 .cabecalho__navegacao__menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 1rem 0;
 }
 
@@ -36,7 +38,7 @@ body {
 
 .cabecalho__link>a {
     color: #040a1a;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin: 0 1rem;
 }
 
