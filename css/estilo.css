@@ -54,3 +54,18 @@ body {
     justify-content: space-around;
     margin: 1rem 0;
 }
+
+.container {
+    padding: 0 6%;
+}
+
+.botao {
+    border: 2px solid teal;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    margin: 1.3rem 0;
+    max-width: 350px;
+    padding: .7rem 1.3rem;
+    width: 100%;
+}
