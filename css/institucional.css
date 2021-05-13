@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho__institucional {
+    background: url(../img/imagens/bg-2.jpg) no-repeat center bottom / cover;
+    width: 100vw;
+    height: 100vh;
+}
