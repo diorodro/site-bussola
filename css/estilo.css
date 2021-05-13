@@ -38,13 +38,14 @@ body {
 
 .cabecalho__link>a {
     color: #040a1a;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin: 0 1rem;
+    transition: 4s;
 }
 
-.cabecalho__link:hover {
+.cabecalho__link>a:hover {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    transition: 4s;
 }
 
 .chamada {
